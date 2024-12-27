@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#name{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 0;
+}
+.game{
+    height: 300px;
+    width: 300px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+#block1{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+#block2{
+    display: flex;
+    justify-content: center;
+}
+#block3{
+    display: flex;
+    justify-content: center;
+    border-top: solid 1px white;
+}
+#c1, #c4, #c7{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+.menu{
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+#btn{
+    height: 70px;
+    width: 300px;
+    border-radius: 50px;
+    border: solid 1px white;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+button:hover{
+    background-color: rgb(71, 71, 71);
+}
